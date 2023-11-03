@@ -1,0 +1,199 @@
+#po{
+    height: 60px;
+}
+#am{
+    color :rgb(255, 255, 255);
+}
+#i{
+    color : white;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#roo{
+    color : white;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#noo{
+    color : white;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#uo{
+  width :30px  
+  
+}
+#txt{
+    width :200px
+    
+}
+#nops{
+    background-color :aqua;
+    width : 200px;
+    height : 200px;
+    display : inline-block;
+    position :fixed;
+    top : 0px;
+}
+#oops{
+    background-color :blueviolet;
+    width : 200px;
+    height : 200px;
+    display : inline-block;
+    margin-right: 5px;
+    position : sticky;
+    top : 0px;
+
+}
+#iot{
+    background-image: url("http://1.bp.blogspot.com/-mFZ9pDmNhFQ/UFhzxhDWKqI/AAAAAAAACKs/-Wbr0KJ9iwo/s1600/Elephant-HD-Wallpaper_5.jpg");
+    background-size: cover;
+    width : 200px;
+    height : 200px;
+    z-index: 20;
+    position : fixed;
+    right : 0px;
+    top: 80px;
+} 
+
+#ml{
+    border : 2px solid black;
+    width : 100vw;
+    height : 600px;
+    display :flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#div1{
+    border : 2px solid black;
+    width : 60vw;
+    height : 60px;
+    background-color: aqua;
+
+}
+#div2{
+    border : 2px solid black;
+    width : 30vw;
+    height : 60px;
+    background-color: rgb(44, 220, 147);
+
+}
+#div3{
+    border : 2px solid black;
+    width : 60px;
+    height : 60px;
+    background-color: rgb(220, 173, 44);
+ 
+}
+#div4{
+    border : 2px solid black;
+    width : 60px;
+    height : 60px;
+    background-color: rgb(173, 44, 220);
+}
+#div5{
+    border : 2px solid black;
+    width : 60px;
+    height : 60px;
+    background-color: rgb(220, 44, 153);
+}
+.myclass{
+    color : purple;
+    background-color:rgb(179, 241, 192);
+    display : flex;
+    justify-content: space-around;
+}
+.tol{
+    background-color: rgb(235, 202, 162);
+    width :100px;
+    height : 100px;
+    display: flex;
+    justify-content: center;
+   
+     
+}
+
+#coal{
+    width :20px;
+    height :20px;
+    background-color: aqua;
+    transition: all 2s ease-in;
+    transition-duration: 2s;
+    position:relative;
+    left:0px;
+    border: 2px black dashed;
+    border-radius: 50%;
+    animation:anii 2s ease-in-out 0s infinite normal;
+
+}
+
+
+
+@media (min-width : 200px) and (max-width :300px){
+    #coal{
+        background-color: black;
+    }
+}
+#mole{
+    background-color: aqua;
+    width :30px;
+    height :30px;
+    display : flex;
+    align-self: center;
+    transition : all 2s ease-in;
+
+   
+}
+#mole:hover{
+    background-color: red;
+    color: azure;
+    transition-property: all;
+    transition-duration: 1s;
+    font-size :20px;
+    width : 50px;
+    height : 50px;
+    transition-timing-function: steps(3);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@keyframes anii {
+   from {left: 0px;
+background-color: aqua;
+rotate: 0deg;}
+   to {left: 200px;
+background-color: blue;
+rotate: 360deg;
+color :aliceblue;
+}
+    
+}
+.more{
+    border : 2px black solid;
+    border-bottom: 6px black solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition-duration: 2s;
+    
+}
+.more:active{
+    transform:translate(800px,0px);
+}
+#mun{
+  position:relative;
+  left: 0px;
+    animation-name: annu;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes annu{
+    from{left:0px;}
+    to{left: 103vw;}
+}
